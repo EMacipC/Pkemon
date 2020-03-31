@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pokedex</title>
+<link rel="shortcut icon" type="image/x-icon" href="imagen/pook.jpg">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-light bg-danger">
+  <a class="navbar-brand" href="index.html">
+    <img src="imagen/pook.jpg" width="30" height="30" class="d-inline-block align-top"  alt="iconoTaco">Lista Pokemones
+  </a>
+</nav>
+<br>
+<div class= div>
+	
+	<button onclick="cargarDataPokemon()" class="btn btn-primary">Cargar</button><br>
+	<div class="row">
+	<div class="col-4"><ul id="listaPokemon"></ul></div>
+	<div class="col-4" style="position:fixed; "><img id="img" height="200px" width="200px"></div>
+	<div class="col-4" style="position:fixed;">
+	<h3 id="h3Abi"></h3>
+	<ul id="lAbi" class="col-4">
+		<li id="li1" class="list-group-item"></li>
+		<li id="li2" class="list-group-item"></li>
+	</ul>
+	</div>
+	</div>
+	<script type="text/javascript" src="js/scrip.js"></script>
+</div>
+</body>
+</html>
